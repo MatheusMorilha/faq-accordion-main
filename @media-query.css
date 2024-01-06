@@ -58,3 +58,24 @@
         font-size: 14px;
     }
 }
+
+@media (max-width: 390px){
+    .card{ 
+        width: 250px;
+    }
+
+    .logo{
+        width: 100%;
+        gap: 30px;
+        font-size: 14px;
+    }
+
+    .quest>h2{
+        width: 70%;
+        font-size: 13px;
+    }
+
+    .answerBox{
+        font-size: 12px;
+    }
+}
