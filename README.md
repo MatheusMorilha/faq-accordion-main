@@ -1,5 +1,7 @@
 # Frontend Mentor - FAQ accordion
-Veja o resultado: https://matheusmorilha.github.io/faq-accordion-main/
+
+VEJA COMO FICOU O RESULTADO: https://matheusmorilha.github.io/faq-accordion-main/
+
 ![Design preview for the FAQ accordion coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
