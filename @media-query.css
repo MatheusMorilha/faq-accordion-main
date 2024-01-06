@@ -21,7 +21,7 @@
 
 @media (max-width: 530px){
     .card{ 
-        width: 300px;
+        width: 320px;
     }
 
     .logo{
@@ -41,7 +41,7 @@
 
 @media (max-width: 430px){
     .card{ 
-        width: 250px;
+        width: 270px;
     }
 
     .logo{
@@ -51,7 +51,7 @@
     }
 
     .quest>h2{
-        font-size: 18px;
+        font-size: 17px;
     }
 
     .answerBox{
@@ -76,6 +76,6 @@
     }
 
     .answerBox{
-        font-size: 12px;
+        font-size: 13px;
     }
 }
