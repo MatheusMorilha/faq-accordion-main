@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(275, 100%, 97%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./assets/images/background-pattern-desktop.png);
+    background-size: 100%;
+    background-position-y: -25%;
+    background-repeat: no-repeat;
+}
+
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    width: 630px;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    row-gap: 10px;
+}
+
+.logo{
+    display: flex;
+    width: 100%;
+    align-items: left;
+    gap: 30px;
+    font-size: 35px;
+}
+
+.boxAcordion{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.acordion{
+    padding: 15px 0px 15px 0px;
+}
+
+.button{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-image: url(./assets/images/icon-plus.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button.active{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-image: url(./assets/images/icon-minus.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.quest{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 15px 0px 15px 0px;
+}
+
+.quest>h2{
+    font-size: 22px;
+}
+
+.answerBox{
+    display: none;
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.737);
+    padding: 20px 0px 20px 0px;
+}
+
+hr{
+    border-color: rgba(179, 169, 169, 0.116);
+}
+
+.acordion.active .answerBox{
+    display: block;
+}
+
+
+
+ 
+
+
+
